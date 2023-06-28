@@ -1,15 +1,3 @@
-
-
-//*************************************************************************
-//
-//    Jonathan Chavez
-//    Z1866268
-//    CSCI 480
-//
-//    I certify that this is my own work and where appropriate an extension 
-//    of the starter code provided for the assignment.  
-//
-//****************************************************************************
 #include <unistd.h> 
 #include <stdio.h>
 #include <sys/wait.h>
