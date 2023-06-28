@@ -5,13 +5,13 @@
 
 CXXFLAGS = -Wall -Werror -std=c++11
 
-z1866268_project1: z1866268_project1.o
-	g++ $(CXXFLAGS) -o z1866268_project1 z1866268_project1.o
+forksystem: forksystem.o
+	g++ $(CXXFLAGS) -o forksystem forksystem.o
 
-z1866268_project1.o: z1866268_project1.cpp
-	g++ $(CXXFLAGS) -c z1866268_project1.cpp
+forksystem.o: forksystem.cpp
+	g++ $(CXXFLAGS) -c forksystem.cpp
 
 clean:
-	rm -f *.o z1866268_project1
+	rm -f *.o forksystem
 
 
